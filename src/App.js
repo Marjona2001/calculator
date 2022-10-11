@@ -31,6 +31,7 @@ const App = () => {
     <div className="App">
       <div className="calc-wrapper">
         <Input text={text} result={result} />
+        <div className="button-box">
         <div className="row" style={{cursor: "pointer"}}>
           <Button symbol="7" handleClick={Matnga_qoshish} />
           <Button symbol="8" handleClick={Matnga_qoshish} />
@@ -54,6 +55,7 @@ const App = () => {
           <Button symbol="." handleClick={Matnga_qoshish} />
           <Button symbol="=" handleClick={Natijani_hisoblash} />
           <Button symbol="-" color={button_rangi} handleClick={Matnga_qoshish} />
+        </div>
         </div>
         <Button symbol="CLEAR" color="blue" handleClick={Kirishni_tiklash} />
       </div>
